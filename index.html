@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation Civique - Questions</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 10px; }
+        .content { padding: 40px; }
+        .mode-selection {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .mode-btn {
+            padding: 30px;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        .mode-btn:hover {
+            background: #f8f9ff;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+        }
+        .mode-btn h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+        .loading, .error {
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+        }
+        .loading { color: #667eea; }
+        .error {
+            background: #ffe0e0;
+            border: 2px solid #ff6b6b;
+            color: #c92a2a;
+            border-radius: 8px;
+        }
+        .hidden { display: none !important; }
+        .quiz-section {
+            display: none;
+        }
+        .quiz-section.active {
+            display: block;
+        }
+        .progress-container { margin-bottom: 30px; }
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s;
+        }
+        .timer {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            z-index: 100;
+            display: none;
+        }
+        .timer.warning { color: #ff6b6b; animation: pulse 1s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+        .question-card {
+            background: #f8f9ff;
+            border: 1px solid #e0e0ff;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .question-number {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .category-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+        .question-text {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        .options { display: grid; gap: 12px; }
+        .option {
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 15px;
+            text-align: left;
+        }
+        .option:hover { border-color: #667eea; background: #f8f9ff; }
+        .option.selected { border-color: #667eea; background: #e8ebff; color: #667eea; font-weight: 600; }
+        .option.correct { border-color: #51cf66; background: #e7f5e7; color: #2b8a3e; }
+        .option.incorrect { border-color: #ff6b6b; background: #ffe0e0; color: #c92a2a; }
+        .option:disabled { cursor: not-allowed; opacity: 0.8; }
+        .explanation {
+            background: white;
+            border: 1px solid #e0e0ff;
+            border-left: 4px solid #667eea;
+            border-radius: 6px;
+            padding: 20px;
+            margin-top: 25px;
+        }
+        .explanation h4 { color: #667eea; margin-bottom: 12px; font-size: 14px; }
+        .explanation-text { font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 12px; }
+        .mnemonic-box {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-left: 3px solid #667eea;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 12px;
+            font-size: 13px;
+            color: #333;
+        }
+        .buttons {
+            display: flex;
+            gap: 12px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+        button {
+            flex: 1;
+            min-width: 120px;
+            padding: 12px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+        button:hover:not(:disabled) {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: #f8f9ff;
+            border: 1px solid #e0e0ff;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .stat-card .number {
+            font-size: 28px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+        .stat-card .label {
+            font-size: 12px;
+            color: #999;
+            text-transform: uppercase;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 200;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal.active { display: flex; }
+        .modal-content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            max-width: 500px;
+        }
+        .modal-content h2 {
+            font-size: 24px;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .modal-content .score {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 600px) {
+            .mode-selection { grid-template-columns: 1fr; }
+            .stats { grid-template-columns: 1fr; }
+            .content { padding: 20px; }
+            .timer { position: static; margin-bottom: 20px; }
+            .buttons { flex-direction: column; }
+            button { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">⏱️ <span id="timerDisplay">30</span>s</div>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Formation Civique Complète</h1>
+            <p id="headerSubtitle">Chargement des questions...</p>
+        </div>
+        <div class="content">
+            <div id="loadingScreen" class="loading">
+                <p>⏳ Chargement des 206 questions...</p>
+            </div>
+            
+            <div id="errorScreen" class="error hidden">
+                <p>❌ Erreur lors du chargement des questions. Assurez-vous que le fichier questions.json est présent dans le même dossier que index.html.</p>
+            </div>
+            
+            <div id="modeScreen" class="hidden">
+                <div class="mode-selection">
+                    <div class="mode-btn" onclick="startMode('learning')">
+                        <h2>📖 Mode Apprentissage</h2>
+                        <p>Révisez à votre rythme avec explications et mnémoniques</p>
+                    </div>
+                    <div class="mode-btn" onclick="startMode('exam')">
+                        <h2>⏱️ Mode Examen</h2>
+                        <p>30 secondes par question (comme l'examen réel)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="quizScreen" class="quiz-section">
+                <div class="progress-container">
+                    <div class="progress-text">
+                        <span>Progression</span>
+                        <span><strong id="currentNum">0</strong>/<strong id="totalNum">0</strong></span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="number" id="correctCount">0</div>
+                        <div class="label">✓ Bonnes</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number" id="wrongCount">0</div>
+                        <div class="label">✗ Mauvaises</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number" id="skipCount">0</div>
+                        <div class="label">⊘ Non répondues</div>
+                    </div>
+                </div>
+                <div class="question-card">
+                    <div class="question-number">Question <span id="qNum">1</span></div>
+                    <div class="category-badge" id="categoryBadge">Catégorie</div>
+                    <div class="question-text" id="questionText"></div>
+                    <div class="options" id="optionsContainer"></div>
+                    <div id="explanationSection" class="hidden">
+                        <div class="explanation">
+                            <h4>✓ Réponse Correcte</h4>
+                            <div class="explanation-text"><strong>FR:</strong> <span id="explFR"></span></div>
+                            <div class="explanation-text"><strong>EN:</strong> <span id="explEN"></span></div>
+                            <div class="mnemonic-box" id="mnemonicBox" style="display: none;">
+                                <strong>🧠 Mémorisation:</strong> <span id="mnemonicText"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="submitBtn" class="btn-primary" onclick="submitAnswer()">Valider</button>
+                        <button id="nextBtn" class="btn-primary hidden" onclick="nextQuestion()">Suivant →</button>
+                        <button onclick="backToMenu()">Menu</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="resultsScreen" class="quiz-section">
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="number" id="finalCorrect">0</div>
+                        <div class="label">Bonnes réponses</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number" id="finalWrong">0</div>
+                        <div class="label">Mauvaises réponses</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number" id="finalPercent">0%</div>
+                        <div class="label">Score</div>
+                    </div>
+                </div>
+                <div id="wrongAnswersReview"></div>
+                <div style="text-align: center; margin-top: 30px;">
+                    <button class="btn-primary" onclick="backToMenu()" style="width: 50%;">Recommencer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal" id="finishModal">
+        <div class="modal-content">
+            <h2>Quiz Terminé!</h2>
+            <div class="score" id="finalScore">0%</div>
+            <p id="finalMessage"></p>
+            <button class="btn-primary" onclick="showResults()" style="width: 100%;">Voir les résultats</button>
+        </div>
+    </div>
+
+    <script>
+        let allQuestions = [];
+        let currentMode = null;
+        let currentIndex = 0;
+        let correct = 0, wrong = 0, skip = 0;
+        let selectedAnswer = null;
+        let answered = false;
+        let timerInterval = null;
+        let timeLeft = 30;
+        let wrongAnswers = [];
+        let usedIndices = new Set();
+
+        // Load questions from JSON on page load
+        window.addEventListener('DOMContentLoaded', loadQuestions);
+
+        async function loadQuestions() {
+            try {
+                const response = await fetch('questions.json');
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const data = await response.json();
+                allQuestions = data.questions;
+                
+                // Update header
+                document.getElementById('headerSubtitle').textContent = `${allQuestions.length} Questions - Préparez-vous à l'examen`;
+                
+                // Hide loading, show mode selection
+                document.getElementById('loadingScreen').classList.add('hidden');
+                document.getElementById('modeScreen').classList.remove('hidden');
+                
+                console.log(`✓ Loaded ${allQuestions.length} questions successfully`);
+            } catch (error) {
+                console.error('Error loading questions:', error);
+                document.getElementById('loadingScreen').classList.add('hidden');
+                document.getElementById('errorScreen').classList.remove('hidden');
+            }
+        }
+
+        function startMode(mode) {
+            if (allQuestions.length === 0) {
+                alert('Les questions ne sont pas encore chargées.');
+                return;
+            }
+            
+            currentMode = mode;
+            correct = wrong = skip = 0;
+            selectedAnswer = null;
+            answered = false;
+            wrongAnswers = [];
+            usedIndices = new Set();
+            currentIndex = 0;
+
+            document.getElementById('modeScreen').classList.add('hidden');
+            document.getElementById('quizScreen').classList.add('active');
+            document.getElementById('resultsScreen').classList.remove('active');
+            document.getElementById('totalNum').textContent = allQuestions.length;
+            
+            if (mode === 'exam') {
+                document.getElementById('timer').style.display = 'block';
+            }
+
+            loadQuestion();
+        }
+
+        function getRandomQuestion() {
+            let idx;
+            do {
+                idx = Math.floor(Math.random() * allQuestions.length);
+            } while (usedIndices.has(idx) && usedIndices.size < allQuestions.length);
+            usedIndices.add(idx);
+            return { ...allQuestions[idx], originalIndex: idx };
+        }
+
+        function loadQuestion() {
+            const q = getRandomQuestion();
+            window.currentQuestion = q;
+            currentIndex++;
+
+            document.getElementById('qNum').textContent = currentIndex;
+            document.getElementById('currentNum').textContent = currentIndex - 1;
+            document.getElementById('categoryBadge').textContent = q.cat;
+            document.getElementById('questionText').textContent = q.q;
+
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+            q.opt.forEach((opt, idx) => {
+                const btn = document.createElement('button');
+                btn.className = 'option';
+                btn.textContent = `${String.fromCharCode(65 + idx)}) ${opt}`;
+                btn.onclick = () => selectAnswer(idx);
+                container.appendChild(btn);
+            });
+
+            document.getElementById('explanationSection').classList.add('hidden');
+            document.getElementById('submitBtn').classList.remove('hidden');
+            document.getElementById('nextBtn').classList.add('hidden');
+            selectedAnswer = null;
+            answered = false;
+
+            if (currentMode === 'exam') {
+                startTimer();
+            }
+
+            updateProgress();
+        }
+
+        function selectAnswer(idx) {
+            if (answered) return;
+            selectedAnswer = idx;
+            const options = document.querySelectorAll('.option');
+            options.forEach((opt, i) => {
+                opt.classList.remove('selected');
+                if (i === idx) opt.classList.add('selected');
+            });
+        }
+
+        function submitAnswer() {
+            if (selectedAnswer === null) return;
+
+            const q = window.currentQuestion;
+            answered = true;
+            const options = document.querySelectorAll('.option');
+
+            options.forEach((opt, i) => {
+                opt.disabled = true;
+                if (i === q.c) {
+                    opt.classList.add('correct');
+                } else if (i === selectedAnswer && selectedAnswer !== q.c) {
+                    opt.classList.add('incorrect');
+                }
+            });
+
+            if (selectedAnswer === q.c) {
+                correct++;
+            } else {
+                wrong++;
+                wrongAnswers.push({
+                    question: q.q,
+                    selected: q.opt[selectedAnswer],
+                    correct: q.opt[q.c],
+                    category: q.cat
+                });
+            }
+
+            document.getElementById('explFR').textContent = q.fr || 'Explication non disponible';
+            document.getElementById('explEN').textContent = q.en || 'Explanation not available';
+
+            if (q.m) {
+                document.getElementById('mnemonicText').textContent = q.m;
+                document.getElementById('mnemonicBox').style.display = 'block';
+            } else {
+                document.getElementById('mnemonicBox').style.display = 'none';
+            }
+
+            document.getElementById('explanationSection').classList.remove('hidden');
+            document.getElementById('submitBtn').classList.add('hidden');
+            document.getElementById('nextBtn').classList.remove('hidden');
+
+            document.getElementById('correctCount').textContent = correct;
+            document.getElementById('wrongCount').textContent = wrong;
+            updateProgress();
+
+            if (currentMode === 'exam') {
+                clearInterval(timerInterval);
+            }
+        }
+
+        function nextQuestion() {
+            if (usedIndices.size >= allQuestions.length) {
+                finishQuiz();
+            } else {
+                loadQuestion();
+            }
+        }
+
+        function finishQuiz() {
+            const percent = Math.round((correct / allQuestions.length) * 100);
+            document.getElementById('finalScore').textContent = percent + '%';
+            document.getElementById('finalMessage').textContent = 
+                percent >= 80 ? '🎉 Excellent! Vous avez réussi!' : 
+                percent >= 60 ? '👍 Bien! Continuez!' : 
+                '📚 Continuez vos révisions!';
+            
+            document.getElementById('finishModal').classList.add('active');
+            document.getElementById('timer').style.display = 'none';
+        }
+
+        function showResults() {
+            document.getElementById('finishModal').classList.remove('active');
+            document.getElementById('quizScreen').classList.remove('active');
+            document.getElementById('resultsScreen').classList.add('active');
+
+            document.getElementById('finalCorrect').textContent = correct;
+            document.getElementById('finalWrong').textContent = wrong;
+            document.getElementById('finalPercent').textContent = Math.round((correct / allQuestions.length) * 100) + '%';
+
+            if (wrongAnswers.length > 0) {
+                let html = '<div style="background:#fffbea;border:1px solid #ffe066;border-radius:8px;padding:25px;margin-bottom:25px;"><h3 style="color:#d9480f;margin-bottom:20px;">📋 Réponses à Revoir (' + wrongAnswers.length + ')</h3>';
+                wrongAnswers.forEach((w, i) => {
+                    html += `<div style="background:white;border-left:4px solid #ff6b6b;padding:15px;margin-bottom:12px;border-radius:4px;font-size:13px;">
+                        <div style="font-weight:600;color:#333;margin-bottom:8px;"><strong>Q${i + 1}:</strong> ${w.question}</div>
+                        <div style="color:#666;margin:6px 0;">❌ Votre réponse: ${w.selected}</div>
+                        <div style="color:#2b8a3e;margin:6px 0;">✓ Bonne réponse: ${w.correct}</div>
+                    </div>`;
+                });
+                html += '</div>';
+                document.getElementById('wrongAnswersReview').innerHTML = html;
+            } else {
+                document.getElementById('wrongAnswersReview').innerHTML = '<div style="background:#e7f5e7;border:1px solid #51cf66;border-radius:8px;padding:25px;"><h3 style="color:#2b8a3e;">🎉 Excellent! Toutes les réponses sont correctes!</h3></div>';
+            }
+        }
+
+        function backToMenu() {
+            document.getElementById('modeScreen').classList.remove('hidden');
+            document.getElementById('quizScreen').classList.remove('active');
+            document.getElementById('resultsScreen').classList.remove('active');
+            document.getElementById('timer').style.display = 'none';
+            if (timerInterval) clearInterval(timerInterval);
+        }
+
+        function startTimer() {
+            timeLeft = 30;
+            clearInterval(timerInterval);
+            document.getElementById('timer').classList.remove('warning');
+
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                document.getElementById('timerDisplay').textContent = timeLeft;
+
+                if (timeLeft <= 10) {
+                    document.getElementById('timer').classList.add('warning');
+                }
+
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    if (!answered) {
+                        skip++;
+                        submitAnswer();
+                    }
+                }
+            }, 1000);
+        }
+
+        function updateProgress() {
+            const percent = Math.min(100, (currentIndex / allQuestions.length) * 100);
+            document.getElementById('progressFill').style.width = percent + '%';
+        }
+    </script>
+</body>
+</html>
