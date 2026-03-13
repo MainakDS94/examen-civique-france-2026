@@ -1,0 +1,2896 @@
+{
+  "metadata": {
+    "title": "Formation Civique - Examen Pratique Complet",
+    "totalQuestions": 206,
+    "lastUpdated": "2025-03-13",
+    "examType": "CR - Carte de Résident & CSP",
+    "passingScore": 80,
+    "examQuestionsTotal": 40,
+    "examPassingQuestions": 32,
+    "categories": [
+      "Principes et valeurs de la République",
+      "Système institutionnel et politique",
+      "Droits et devoirs",
+      "Histoire géographie et culture",
+      "Vivre dans la société française"
+    ]
+  },
+  "questions": [
+    {
+      "q": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+      "opt": [
+        "Rester chez soi et ne rien faire",
+        "Voter aux élections",
+        "Critiquer sans agir",
+        "Ignorer la loi"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Voter est un acte fondamental de participation citoyenne. C'est l'exercice du droit politique le plus direct.",
+      "en": "Voting is a fundamental civic participation. It's the most direct exercise of political rights.",
+      "m": "VOTE = Voice, Opinion, The Electoral"
+    },
+    {
+      "q": "Que garantit la liberté d'expression ?",
+      "opt": [
+        "De dire n'importe quoi sans limite",
+        "Le droit d'exprimer ses opinions librement",
+        "L'immunité légale",
+        "Pas de responsabilité"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "La liberté d'expression garantit le droit de partager ses idées, mais elle a des limites (insultes, diffamation, appels à la violence).",
+      "en": "Freedom of speech guarantees the right to share ideas, but has limits (insults, defamation, incitement to violence).",
+      "m": "EXPRESS = Everyone's Right To Express"
+    },
+    {
+      "q": "À quoi sert un titre de séjour ?",
+      "opt": [
+        "À voter",
+        "À autoriser une personne à rester légalement en France",
+        "À travailler uniquement",
+        "À voyager librement"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Un titre de séjour est un document officiel qui autorise une personne étrangère à résider légalement en France pour une durée déterminée.",
+      "en": "A residence permit is an official document allowing a foreign national to legally reside in France for a set duration.",
+      "m": "TITRE = Temporary Inscription To Live"
+    },
+    {
+      "q": "La liberté de circulation permet à toute personne de :",
+      "opt": [
+        "Voyager dans le monde entier sans restrictions",
+        "Se déplacer librement sur le territoire français",
+        "Circuler sans documents",
+        "Voyager sans raison"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "La liberté de circulation garantit le droit de se déplacer librement en France métropolitaine et en Corse.",
+      "en": "Freedom of movement guarantees the right to move freely throughout mainland France and Corsica.",
+      "m": "FREE = France's Residents' Essential Electoral Movement"
+    },
+    {
+      "q": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+      "opt": [
+        "govfr.org",
+        "france.gouv.fr",
+        "service-public.fr",
+        "republique.org"
+      ],
+      "c": 2,
+      "cat": "Principes et valeurs",
+      "fr": "Le site officiel service-public.fr présente les symboles et informations officielles de la République française.",
+      "en": "The official website service-public.fr displays the symbols and official information of the French Republic.",
+      "m": "SERVICE-PUBLIC = Symbols Essential Resources Vital Icons"
+    },
+    {
+      "q": "Complétez : 'Aux armes [...] ! Formez vos bataillons'",
+      "opt": [
+        "Français",
+        "Citoyens !",
+        "Soldats",
+        "Braves"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "L'hymne national débute par 'Aux armes citoyens, formez vos bataillons !'",
+      "en": "The national anthem begins with 'To arms citizens, form your battalions!'",
+      "m": "CITOYENS = Citizens In The Hymn Order National"
+    },
+    {
+      "q": "Complétez : 'Allons enfants de la patrie [...]'",
+      "opt": [
+        "Marchez vers la liberté",
+        "Le jour de gloire est arrivé",
+        "Levez-vous contre la tyrannie",
+        "Prenez les armes"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Deuxième vers de l'hymne national français.",
+      "en": "Second verse of the French national anthem.",
+      "m": "JOUR GLOIRE = Journey's Oath Unity Righteous"
+    },
+    {
+      "q": "En application de la liberté individuelle, une personne peut :",
+      "opt": [
+        "Faire tout ce qu'elle veut",
+        "Exprimer ses opinions sans censure",
+        "S'habiller comme elle le désire",
+        "Tout ce qui n'est pas interdit par la loi"
+      ],
+      "c": 3,
+      "cat": "Principes et valeurs",
+      "fr": "La liberté individuelle n'est pas absolue. Elle s'exerce dans le cadre de la loi et du respect d'autrui.",
+      "en": "Individual freedom is not absolute. It's exercised within the framework of law and respect for others.",
+      "m": "FREEDOM = Frame-Restricted Educational Duty"
+    },
+    {
+      "q": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+      "opt": [
+        "C'est obligatoire en France",
+        "C'est un droit fondamental",
+        "C'est interdit",
+        "C'est recommandé par l'État"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "La France garantit la liberté de religion. Chacun peut pratiquer la religion de son choix ou ne pratiquer aucune religion.",
+      "en": "France guarantees freedom of religion. Each person can practice the religion of their choice or practice no religion.",
+      "m": "RELIGION = Right To Every Liberty's"
+    },
+    {
+      "q": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport car ils sont mixtes ?",
+      "opt": [
+        "Oui, c'est un droit parental",
+        "Oui, si la région le permet",
+        "Non, c'est interdit en France",
+        "Oui, pour des raisons religieuses"
+      ],
+      "c": 2,
+      "cat": "Principes et valeurs",
+      "fr": "L'école est laïque et mixte en France. Les parents ne peuvent pas refuser la participation aux cours de sport pour des raisons religieuses.",
+      "en": "Schools are secular and co-ed in France. Parents cannot refuse sports classes for religious reasons.",
+      "m": "MIXED SCHOOLS = Must Include X-gender"
+    },
+    {
+      "q": "Quelle est la devise de la France ?",
+      "opt": [
+        "Travail, Famille, Patrie",
+        "Liberté, Égalité, Fraternité",
+        "Honneur, Gloire, Justice",
+        "Paix, Ordre, Progrès"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "'Liberté, Égalité, Fraternité' est la devise officielle de la République française depuis 1848.",
+      "en": "'Liberty, Equality, Fraternity' is the official motto of the French Republic since 1848.",
+      "m": "LEF = Liberty Equality Fraternity"
+    },
+    {
+      "q": "La répudiation de sa femme est :",
+      "opt": [
+        "Légale et reconnue en France",
+        "Illégale en France",
+        "Possible pour les ressortissants de certains pays",
+        "Acceptable si les deux parties sont d'accord"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "La répudiation (divorce unilatéral décidé par l'homme) n'est pas reconnue en droit français.",
+      "en": "Repudiation (unilateral male-initiated divorce) is not recognized under French law.",
+      "m": "REPUDIATION = Rejected Equal Protection"
+    },
+    {
+      "q": "Les impôts permettent de financer. Quelle proposition est correcte ?",
+      "opt": [
+        "L'armée uniquement",
+        "La police uniquement",
+        "Les fonctionnaires uniquement",
+        "L'école, la santé, la police, l'armée et services publics"
+      ],
+      "c": 3,
+      "cat": "Principes et valeurs",
+      "fr": "Les impôts et les taxes financent tous les services publics.",
+      "en": "Taxes fund all public services.",
+      "m": "TAXES = The Administration Xpands Essential"
+    },
+    {
+      "q": "Peut-on brûler publiquement un drapeau français ?",
+      "opt": [
+        "Non, c'est interdit et puni",
+        "Oui, c'est une protestation",
+        "Oui, c'est la liberté d'expression",
+        "Oui, si c'est privé"
+      ],
+      "c": 0,
+      "cat": "Principes et valeurs",
+      "fr": "Non. La destruction publique du drapeau est punie par le Code pénal.",
+      "en": "No. Public destruction of the flag is punished by the Penal Code.",
+      "m": "FLAG = France's Liberty And Glory"
+    },
+    {
+      "q": "Que représente Marianne ?",
+      "opt": [
+        "Une reine historique",
+        "La République française",
+        "Une sainte patronne",
+        "Une héroïne"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Marianne est le symbole allégorique de la République depuis 1789.",
+      "en": "Marianne is the allegorical symbol of the Republic since 1789.",
+      "m": "MARIANNE = May All Republic's Ideals"
+    },
+    {
+      "q": "Qu'est-ce que la liberté d'association ?",
+      "opt": [
+        "Association automatique",
+        "Le droit de se regrouper librement",
+        "L'obligation légale de s'associer",
+        "Les associations publiques uniquement"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "La liberté d'association garantit le droit de créer et adhérer à des associations sans autorisation préalable.",
+      "en": "Freedom of association guarantees the right to create and join associations without prior authorization.",
+      "m": "ASSOCIATION = Allowed Social Support"
+    },
+    {
+      "q": "Qu'est-ce que la Marseillaise ?",
+      "opt": [
+        "Une danse folklorique",
+        "L'hymne national",
+        "Une région historique",
+        "Un monument"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "La Marseillaise est l'hymne national depuis 1879.",
+      "en": "The Marseillaise is the national anthem since 1879.",
+      "m": "MARSEILLAISE = Musique Auditioned Revolutionary"
+    },
+    {
+      "q": "Sur quel document peut-on voir Marianne ?",
+      "opt": [
+        "Timbres seulement",
+        "Pièces seulement",
+        "Bâtiments seulement",
+        "Timbres, pièces, documents et bâtiments"
+      ],
+      "c": 3,
+      "cat": "Principes et valeurs",
+      "fr": "Marianne figure sur les timbres, pièces, documents officiels et bâtiments publics.",
+      "en": "Marianne appears on stamps, coins, official documents and public buildings.",
+      "m": "MARIANNE = Multiple Appearances"
+    },
+    {
+      "q": "Un employeur refuse d'embaucher des femmes. Que dit la loi ?",
+      "opt": [
+        "C'est autorisé",
+        "C'est interdit et punissable",
+        "C'est toléré",
+        "C'est recommandé"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Le Code du travail interdit les discriminations basées sur le sexe.",
+      "en": "Labor Code prohibits sex-based discrimination.",
+      "m": "NO DISCRIMINATION = National Ordinance"
+    },
+    {
+      "q": "Égalité signifie ?",
+      "opt": [
+        "Tous riches",
+        "Mêmes droits et protections pour tous",
+        "Pas de différences économiques",
+        "Salaires égaux"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "L'égalité signifie que tous les citoyens jouissent des mêmes droits devant la loi.",
+      "en": "Equality means all citizens enjoy the same rights before law.",
+      "m": "EQUALITY = Equal Law Application"
+    },
+    {
+      "q": "Quelle est la place de la langue française ?",
+      "opt": [
+        "Comme une autre",
+        "Langue officielle de la République",
+        "Optionnel",
+        "Secondaire"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Article 2 de la Constitution : 'La langue de la République est le français'.",
+      "en": "Article 2 of the Constitution: 'The language of the Republic is French'.",
+      "m": "FRENCH = France's Republic Ensures"
+    },
+    {
+      "q": "Quels sont des symboles officiels ?",
+      "opt": [
+        "Drapeau seulement",
+        "Marianne seulement",
+        "Marseillaise seulement",
+        "Tous les trois"
+      ],
+      "c": 3,
+      "cat": "Principes et valeurs",
+      "fr": "Les trois symboles : drapeau tricolore, Marianne et Marseillaise.",
+      "en": "The three symbols: tricolor flag, Marianne and Marseillaise.",
+      "m": "SYMBOLS = Significant Yearly Marks"
+    },
+    {
+      "q": "A-t-on le droit d'insulter quelqu'un pour ses différences ?",
+      "opt": [
+        "Oui, c'est libre",
+        "Non, c'est interdit",
+        "Parfois",
+        "Si blague"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Non. Les insultes sont punissables par la loi.",
+      "en": "No. Insults are punishable by law.",
+      "m": "NO INSULTS = National Ordinance"
+    },
+    {
+      "q": "Le régime de la France est :",
+      "opt": [
+        "Monarchie",
+        "Dictature",
+        "République démocratique",
+        "Empire"
+      ],
+      "c": 2,
+      "cat": "Principes et valeurs",
+      "fr": "La France est une République démocratique.",
+      "en": "France is a democratic republic.",
+      "m": "REPUBLIC = Rule Electoral Presidential"
+    },
+    {
+      "q": "Pourquoi la laïcité à l'école ?",
+      "opt": [
+        "Interdire religion",
+        "Assurer égalité et neutralité",
+        "Satisfaire gouvernement",
+        "Respecter tradition"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "La laïcité à l'école garantit l'égalité et la neutralité.",
+      "en": "Secularism in schools ensures equality and neutrality.",
+      "m": "LAICITY = Law Allowing Individual Conscience"
+    },
+    {
+      "q": "Séparation Églises-État votée en ?",
+      "opt": [
+        "1789",
+        "1848",
+        "1905",
+        "1958"
+      ],
+      "c": 2,
+      "cat": "Principes et valeurs",
+      "fr": "La loi du 9 décembre 1905.",
+      "en": "The law of December 9, 1905.",
+      "m": "1905 = Year Nineteen Zero Five"
+    },
+    {
+      "q": "Droit de ne pas croire ?",
+      "opt": [
+        "Non",
+        "Oui, droit fondamental",
+        "Rarement",
+        "Jamais"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Oui, c'est un droit fondamental.",
+      "en": "Yes, it is a fundamental right.",
+      "m": "FREEDOM = Free Right Of Deliberation"
+    },
+    {
+      "q": "Droit garanti par laïcité ?",
+      "opt": [
+        "Travailler",
+        "Conscience et religion",
+        "Voter",
+        "Association"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "La liberté de conscience et de religion.",
+      "en": "Freedom of conscience and religion.",
+      "m": "CONSCIENCE = Core Objective Nature"
+    },
+    {
+      "q": "Signes religieux à l'école ?",
+      "opt": [
+        "Élèves parents",
+        "Personne",
+        "Parents seulement",
+        "Visiteurs"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Personne, neutralité obligatoire.",
+      "en": "No one, mandatory neutrality.",
+      "m": "NO SIGNS = Neutrality Obligatory Religious"
+    },
+    {
+      "q": "Neutralité de l'État ?",
+      "opt": [
+        "Aucun pouvoir",
+        "Ne favorise aucune religion",
+        "Interdit religion",
+        "Contrôle religion"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "L'État ne favorise aucune religion.",
+      "en": "The State favors no religion.",
+      "m": "STATE = Secular Treatment Always"
+    },
+    {
+      "q": "Usager service public mairie ?",
+      "opt": [
+        "Diriger",
+        "Accéder aux services",
+        "Voter",
+        "Prendre décisions"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Accéder aux services publics.",
+      "en": "Access public services.",
+      "m": "MAIRIE = Municipal Administrative Resources"
+    },
+    {
+      "q": "Neutralité religieuse qui ?",
+      "opt": [
+        "Citoyens seulement",
+        "Agents publics",
+        "Politiques",
+        "Personne"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Les agents publics de l'État.",
+      "en": "Public servants of the State.",
+      "m": "PUBLIC = Providing Absolutely Genuine"
+    },
+    {
+      "q": "Laïcité impose neutralité ?",
+      "opt": [
+        "Non",
+        "Oui absolument",
+        "Rarement",
+        "Parfois"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Oui, neutralité obligatoire.",
+      "en": "Yes, mandatory neutrality.",
+      "m": "NEUTRAL = Neutrality Enforced Unbiased"
+    },
+    {
+      "q": "Garantit laïcité ?",
+      "opt": [
+        "Conscience religion",
+        "Expression",
+        "Association",
+        "Circulation"
+      ],
+      "c": 0,
+      "cat": "Principes et valeurs",
+      "fr": "Liberté de conscience et religion.",
+      "en": "Freedom of conscience and religion.",
+      "m": "LAICITY = Liberty's Assurance"
+    },
+    {
+      "q": "Changer de religion ?",
+      "opt": [
+        "Non",
+        "Oui librement",
+        "Rarement",
+        "Jamais"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Oui, droit inviolable.",
+      "en": "Yes, inviolable right.",
+      "m": "CHANGE = Choose Heavenly"
+    },
+    {
+      "q": "Représente laïcité ?",
+      "opt": [
+        "Religion État",
+        "Séparation Églises-État",
+        "Parti politique",
+        "Loi électorale"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Séparation Églises et État.",
+      "en": "Separation Church and State.",
+      "m": "LAICITY = Liberty's Active"
+    },
+    {
+      "q": "Interdit Charte laïcité école ?",
+      "opt": [
+        "Opinions",
+        "Signes religieux",
+        "Critique",
+        "Discussion"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Signes religieux visibles.",
+      "en": "Visible religious signs.",
+      "m": "CHARTER = Confirms Honoring"
+    },
+    {
+      "q": "Article 1er Constitution ?",
+      "opt": [
+        "Monarchie",
+        "République indivisible laïque démocratique",
+        "Empire",
+        "Dictature"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "République indivisible laïque démocratique sociale.",
+      "en": "Indivisible secular democratic social Republic.",
+      "m": "ARTICLE = Absolute Republic Truth"
+    },
+    {
+      "q": "État de droit ?",
+      "opt": [
+        "Sans loi",
+        "Soumis à loi et Constitution",
+        "Tous-puissant",
+        "Sans juridiction"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "L'État est soumis aux lois qu'il crée.",
+      "en": "The State is subject to the laws it creates.",
+      "m": "STATE = Submitted To Authority"
+    },
+    {
+      "q": "Président crime commis ?",
+      "opt": [
+        "Immune",
+        "Poursuivi après mandat",
+        "Pas jugé",
+        "Pardonné"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Il peut être poursuivi après son mandat.",
+      "en": "He can be prosecuted after his term.",
+      "m": "PRESIDENT = Prosecuted Really"
+    },
+    {
+      "q": "Loi expression de ?",
+      "opt": [
+        "Roi",
+        "Président",
+        "Volonté peuple",
+        "Gouvernement"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "La volonté générale du peuple.",
+      "en": "The people's general will.",
+      "m": "LAW = Liberty And Will"
+    },
+    {
+      "q": "Mandat municipal ?",
+      "opt": [
+        "3 ans",
+        "4 ans",
+        "5 ans",
+        "6 ans"
+      ],
+      "c": 3,
+      "cat": "Système institutionnel",
+      "fr": "6 ans renouvelables.",
+      "en": "6 years renewable.",
+      "m": "MUNICIPAL = Many Under Nine Intervals"
+    },
+    {
+      "q": "État de droit garantit ?",
+      "opt": [
+        "Richesse",
+        "Respect loi tous",
+        "Santé gratuite",
+        "Égalité économique"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Le respect de la loi pour tous.",
+      "en": "Respect of law for all.",
+      "m": "RULE = Respect Unbiased Law"
+    },
+    {
+      "q": "Voter place autre ?",
+      "opt": [
+        "Oui procuration",
+        "Non jamais",
+        "Parfois",
+        "Rarement"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Non, vote est personnel et secret.",
+      "en": "No, voting is personal and secret.",
+      "m": "VOTE = Very Own Token Electoral"
+    },
+    {
+      "q": "Vote obligatoire ?",
+      "opt": [
+        "Oui tous",
+        "Non droit seulement",
+        "Oui exceptions",
+        "Oui présidentielles"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Non, c'est un droit pas obligation.",
+      "en": "No, it is a right not obligation.",
+      "m": "VOTING = Voluntary Open Truly"
+    },
+    {
+      "q": "Président rester mandat ?",
+      "opt": [
+        "Oui populaire",
+        "Non limité constitutionnellement",
+        "Oui pas successeur",
+        "Oui crise"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Non, mandat limité constitutionnellement.",
+      "en": "No, term limited constitutionally.",
+      "m": "TERM = Terminated Every Required Mandate"
+    },
+    {
+      "q": "Dirige Gouvernement ?",
+      "opt": [
+        "Parlement",
+        "Président seulement",
+        "Premier ministre",
+        "Assemblée"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "Le Premier ministre dirige.",
+      "en": "The Prime Minister directs.",
+      "m": "PM = Premier Minister"
+    },
+    {
+      "q": "Nomme Premier ministre ?",
+      "opt": [
+        "Parlement",
+        "Citoyens",
+        "Président",
+        "Assemblée"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "Le Président de la République.",
+      "en": "The President of the Republic.",
+      "m": "PM = Positioned by Monarch"
+    },
+    {
+      "q": "Organisation administrative ?",
+      "opt": [
+        "Centralisée",
+        "Décentralisée",
+        "Mixte",
+        "Féodale"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "Centralisée et décentralisée.",
+      "en": "Centralized and decentralized.",
+      "m": "ADMIN = Administrative Dynamic"
+    },
+    {
+      "q": "Pouvoir législatif ?",
+      "opt": [
+        "Exécuter",
+        "Voter lois",
+        "Juger",
+        "Gouverner"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Le pouvoir de voter les lois.",
+      "en": "The power to vote laws.",
+      "m": "LEGISLATIVE = Laws Established"
+    },
+    {
+      "q": "Séparer trois pouvoirs ?",
+      "opt": [
+        "Affaiblir",
+        "Empêcher abus",
+        "Compliquer",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Pour empêcher la concentration du pouvoir.",
+      "en": "To prevent power concentration.",
+      "m": "SEPARATION = Stop Excess Power"
+    },
+    {
+      "q": "Sanctionne vol ?",
+      "opt": [
+        "Police",
+        "Gouvernement",
+        "Autorité judiciaire",
+        "Parlement"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "L'autorité judiciaire.",
+      "en": "The judicial authority.",
+      "m": "THEFT = Through Judicial"
+    },
+    {
+      "q": "Rôle Défenseur droits ?",
+      "opt": [
+        "Juger",
+        "Protéger droits citoyens",
+        "Gouverner",
+        "Légiférer"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Protéger les droits des citoyens.",
+      "en": "Protect citizens' rights.",
+      "m": "DEFENDER = Defends Everyone"
+    },
+    {
+      "q": "Euro depuis quand ?",
+      "opt": [
+        "1995",
+        "2000",
+        "2002",
+        "2005"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "Depuis 2002 en France.",
+      "en": "Since 2002 in France.",
+      "m": "EURO = 2002"
+    },
+    {
+      "q": "Combien régions ?",
+      "opt": [
+        "12",
+        "13",
+        "16",
+        "18"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "13 régions en France métropolitaine.",
+      "en": "13 regions in metropolitan France.",
+      "m": "REGIONS = Thirteen"
+    },
+    {
+      "q": "Combien communes ?",
+      "opt": [
+        "30000",
+        "34000",
+        "36000",
+        "40000"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Environ 34000 communes.",
+      "en": "Approximately 34,000 municipalities.",
+      "m": "COMMUNES = Countless"
+    },
+    {
+      "q": "Quel traité construit UE ?",
+      "opt": [
+        "Rome",
+        "Maastricht",
+        "Lisbonne",
+        "Versailles"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Le traité de Maastricht en 1992.",
+      "en": "The Maastricht Treaty in 1992.",
+      "m": "MAASTRICHT = 1992"
+    },
+    {
+      "q": "État quitté UE 2020 ?",
+      "opt": [
+        "France",
+        "Allemagne",
+        "Royaume-Uni",
+        "Pologne"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "Le Royaume-Uni (Brexit).",
+      "en": "The United Kingdom (Brexit).",
+      "m": "BREXIT = 2020"
+    },
+    {
+      "q": "Devise UE ?",
+      "opt": [
+        "Paix",
+        "Unie dans la diversité",
+        "Liberté",
+        "Égalité"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "'Unie dans la diversité'.",
+      "en": "'United in diversity'.",
+      "m": "DIVERSITY = United"
+    },
+    {
+      "q": "Hymne UE ?",
+      "opt": [
+        "Hymne européen",
+        "Ode à la joie",
+        "Hymne commun",
+        "Ode union"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "L'Ode à la joie.",
+      "en": "Ode to Joy.",
+      "m": "ODE = Joy"
+    },
+    {
+      "q": "Drapeau UE composé ?",
+      "opt": [
+        "Étoiles",
+        "12 étoiles bleu",
+        "Bandes",
+        "Symboles"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "12 étoiles jaunes sur bleu.",
+      "en": "12 yellow stars on blue.",
+      "m": "STARS = Symbols"
+    },
+    {
+      "q": "Couleur drapeau UE ?",
+      "opt": [
+        "Or",
+        "Bleu",
+        "Vert",
+        "Rouge"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Bleu (pantone 280).",
+      "en": "Blue (Pantone 280).",
+      "m": "BLUE = Background"
+    },
+    {
+      "q": "Maastricht signé ?",
+      "opt": [
+        "1990",
+        "1991",
+        "1992",
+        "1993"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "1992 marque la fondation.",
+      "en": "1992 marks the foundation.",
+      "m": "1992 = Treaty"
+    },
+    {
+      "q": "Siège Parlement européen ?",
+      "opt": [
+        "Bruxelles",
+        "Luxembourg",
+        "Strasbourg",
+        "Berlin"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "Strasbourg (principalement).",
+      "en": "Strasbourg (mainly).",
+      "m": "STRASBOURG = Parlement"
+    },
+    {
+      "q": "Siège Commission européenne ?",
+      "opt": [
+        "Strasbourg",
+        "Bruxelles",
+        "Luxembourg",
+        "Amsterdam"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Bruxelles.",
+      "en": "Brussels.",
+      "m": "BRUSSELS = Commission"
+    },
+    {
+      "q": "État non-membre UE ?",
+      "opt": [
+        "Pologne",
+        "Suisse",
+        "Italie",
+        "Allemagne"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "La Suisse n'est pas membre.",
+      "en": "Switzerland is not a member.",
+      "m": "SWITZERLAND = No"
+    },
+    {
+      "q": "Journée Europe ?",
+      "opt": [
+        "8 mai",
+        "9 mai",
+        "14 juillet",
+        "21 juin"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Le 9 mai.",
+      "en": "May 9.",
+      "m": "MAY = 9"
+    },
+    {
+      "q": "Élections EU fréquence ?",
+      "opt": [
+        "3 ans",
+        "4 ans",
+        "5 ans",
+        "6 ans"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "Tous les 5 ans.",
+      "en": "Every 5 years.",
+      "m": "FIVE = Years"
+    },
+    {
+      "q": "Condition voter élections EU ?",
+      "opt": [
+        "Tout citoyen",
+        "Citoyen UE 18 ans",
+        "Citoyen riche",
+        "Citoyen marié"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Citoyen UE et 18 ans minimum.",
+      "en": "EU citizen and minimum 18 years.",
+      "m": "VOTER = EU + Age"
+    },
+    {
+      "q": "Pays fondateur UE ?",
+      "opt": [
+        "Suisse",
+        "France",
+        "Suède",
+        "Pologne"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "La France est fondatrice.",
+      "en": "France is a founder.",
+      "m": "FRANCE = Founder"
+    },
+    {
+      "q": "PMA référence ?",
+      "opt": [
+        "Droit travail",
+        "Liberté reproduction",
+        "Droits mineurs",
+        "Droits politiques"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La PMA (Procréation Médicalement Assistée) fait référence à la liberté de reproduction.",
+      "en": "PMA (Medically Assisted Reproduction) refers to reproductive freedom.",
+      "m": "PMA = Procreation Medical Assisted"
+    },
+    {
+      "q": "Au nom quoi restreint droits ?",
+      "opt": [
+        "Intérêt royal",
+        "Intérêt général",
+        "Enrichissement État",
+        "Plaisir gouvernement"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "L'État justifie les restrictions au nom de l'intérêt général.",
+      "en": "The State justifies restrictions in the name of general interest.",
+      "m": "INTEREST = Intérêt General Public"
+    },
+    {
+      "q": "Droit se marier ?",
+      "opt": [
+        "Homme femme seulement",
+        "Toute personne peut",
+        "Avec permission État",
+        "Pas reconnu"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Toute personne majeure peut se marier.",
+      "en": "Any adult person can marry.",
+      "m": "MARRIAGE = May Any Relate"
+    },
+    {
+      "q": "Divorcer toujours possible ?",
+      "opt": [
+        "Jamais",
+        "Oui, droit reconnu",
+        "Seulement cas graves",
+        "Si enfants"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Oui, le divorce est un droit reconnu.",
+      "en": "Yes, divorce is a recognized right.",
+      "m": "DIVORCE = Droit Inscrit"
+    },
+    {
+      "q": "Peine de mort ?",
+      "opt": [
+        "Légale crimes graves",
+        "Abolie 1981",
+        "Possible régime spécial",
+        "Utilisée politique"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La peine de mort est abolie depuis 1981 en France.",
+      "en": "Capital punishment was abolished in 1981 in France.",
+      "m": "DEATH = Deleted 1981"
+    },
+    {
+      "q": "Avortement autorisé ?",
+      "opt": [
+        "Jamais",
+        "Jusqu'à 15 semaines",
+        "Jamais sans permission",
+        "Si riche"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "L'avortement est autorisé jusqu'à 15 semaines.",
+      "en": "Abortion is permitted up to 15 weeks.",
+      "m": "ABORTION = Authorized 15 weeks"
+    },
+    {
+      "q": "Qui demander avocat ?",
+      "opt": [
+        "Riches seulement",
+        "Aide juridictionnelle",
+        "Gouvernement décide",
+        "Jamais accordé"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "L'aide juridictionnelle permet aux personnes sans moyens d'avoir un avocat.",
+      "en": "Legal aid allows people without means to have a lawyer.",
+      "m": "LAWYER = Legal Aid"
+    },
+    {
+      "q": "Constitution contient ?",
+      "opt": [
+        "Lois seulement",
+        "Droits et devoirs",
+        "Symboles seulement",
+        "Gouvernement"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La Constitution énonce droits et devoirs fondamentaux.",
+      "en": "The Constitution outlines fundamental rights and duties.",
+      "m": "CONSTITUTION = Core Rights"
+    },
+    {
+      "q": "Liberté presse garantit ?",
+      "opt": [
+        "Silence obligatoire",
+        "Droit parler librement",
+        "Obéissance gouvernement",
+        "Pas de critique"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La liberté de la presse garantit le droit d'informer et critiquer.",
+      "en": "Press freedom guarantees the right to inform and criticize.",
+      "m": "PRESS = Public Right Express"
+    },
+    {
+      "q": "Charte environnement prévoit ?",
+      "opt": [
+        "Pas obligations",
+        "Droit environnement sain",
+        "Commerce seulement",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La Charte de l'environnement garantit le droit à un environnement sain.",
+      "en": "Environmental Charter guarantees the right to a healthy environment.",
+      "m": "ENVIRONMENT = Earth Matter"
+    },
+    {
+      "q": "Dignité humaine signifie ?",
+      "opt": [
+        "Richesse",
+        "Respect de chaque personne",
+        "Pouvoir politique",
+        "Beauté"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La dignité humaine signifie le respect de chaque personne.",
+      "en": "Human dignity means respect for each person.",
+      "m": "DIGNITY = Deserved Integrity"
+    },
+    {
+      "q": "Droit manifester signifie ?",
+      "opt": [
+        "Obligation parler",
+        "Droit exprimer publiquement",
+        "Interdiction rassemblement",
+        "Silence requis"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Le droit de manifester est le droit d'exprimer ses opinions publiquement.",
+      "en": "Right to protest is the right to express opinions publicly.",
+      "m": "PROTEST = Public Right Express"
+    },
+    {
+      "q": "PMA signifie ?",
+      "opt": [
+        "Protection Maternité Anticipée",
+        "Procréation Médicalement Assistée",
+        "Pension Minimale Agée",
+        "Protection Matérielle"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "PMA = Procréation Médicalement Assistée.",
+      "en": "PMA = Medically Assisted Reproduction.",
+      "m": "PMA = Procreation Medical"
+    },
+    {
+      "q": "Quel texte modifier difficile ?",
+      "opt": [
+        "Loi ordinaire",
+        "Constitution",
+        "Décret gouvernement",
+        "Ordonnance"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La Constitution est le texte le plus difficile à modifier.",
+      "en": "The Constitution is the most difficult text to modify.",
+      "m": "CONSTITUTION = Complicated"
+    },
+    {
+      "q": "Liberté croire quelle ?",
+      "opt": [
+        "Travailler",
+        "Conscience et religion",
+        "Voter",
+        "Association"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La liberté de conscience et de religion.",
+      "en": "Freedom of conscience and religion.",
+      "m": "BELIEF = Freedom Essential"
+    },
+    {
+      "q": "Droit grève signifie ?",
+      "opt": [
+        "Interdiction travailler",
+        "Droit arrêter travail",
+        "Obligation rester",
+        "Révolte"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Le droit de grève est le droit d'arrêter collectivement le travail.",
+      "en": "Right to strike is the right to stop work collectively.",
+      "m": "STRIKE = Stop Temporary"
+    },
+    {
+      "q": "Mariage reconnu ?",
+      "opt": [
+        "Seulement religieux",
+        "Civil seulement",
+        "Religieux et civil",
+        "Aucun"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Le mariage civil est reconnu par l'État.",
+      "en": "Civil marriage is recognized by the State.",
+      "m": "MARRIAGE = Marriage"
+    },
+    {
+      "q": "Femme majeure française vote ?",
+      "opt": [
+        "Non jamais",
+        "Oui aux élections",
+        "Pas droits politiques",
+        "Seulement locales"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Oui, une femme majeure française a le droit de voter.",
+      "en": "Yes, an adult French woman has the right to vote.",
+      "m": "WOMEN = Votes Everyone"
+    },
+    {
+      "q": "Réseaux sociaux utilisation ?",
+      "opt": [
+        "Totalement libre",
+        "Soumise à la loi",
+        "Pas de limite",
+        "Pour riche"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "L'utilisation des réseaux sociaux est soumise à la loi.",
+      "en": "Use of social media is subject to law.",
+      "m": "SOCIAL = Subject Legal"
+    },
+    {
+      "q": "Jeter mégot terre ?",
+      "opt": [
+        "Permis",
+        "Interdit amende",
+        "Recommandé",
+        "Gratuit"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Jeter un mégot est un manquement à l'environnement, puni d'amende.",
+      "en": "Throwing a cigarette butt is an environmental offense, punishable by fine.",
+      "m": "LITTER = Legal Issue"
+    },
+    {
+      "q": "État peut limiter libertés ?",
+      "opt": [
+        "Non jamais",
+        "Oui pour intérêt général",
+        "Toujours",
+        "Rarement"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "L'État peut limiter les libertés pour l'intérêt général.",
+      "en": "The State can limit freedoms for general interest.",
+      "m": "LIBERTY = Limited If General"
+    },
+    {
+      "q": "Respecter environnement action ?",
+      "opt": [
+        "Continuer pollution",
+        "Trier déchets",
+        "Laisser nature",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Trier ses déchets est une action respectueuse de l'environnement.",
+      "en": "Recycling is an action respecting the environment.",
+      "m": "RECYCLE = Respect Environment"
+    },
+    {
+      "q": "Obligation proposition ?",
+      "opt": [
+        "Suggestion seulement",
+        "Obligatoire légalement",
+        "Recommandation",
+        "Option"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Une obligation est quelque chose d'obligatoire légalement.",
+      "en": "An obligation is something legally mandatory.",
+      "m": "OBLIGATION = Obligatory"
+    },
+    {
+      "q": "Liberté expression limiter motif ?",
+      "opt": [
+        "Jamais",
+        "Insulte diffamation violence",
+        "Tous les avis",
+        "Pas de limite"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La liberté d'expression peut être limitée pour insulte, diffamation et incitation à la violence.",
+      "en": "Freedom of expression can be limited for insult, defamation and incitement to violence.",
+      "m": "EXPRESS = Exceptions Exist"
+    },
+    {
+      "q": "Trier déchets pourquoi ?",
+      "opt": [
+        "Obligation seulement",
+        "Respecter environnement",
+        "Parait",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Trier les déchets permet de respecter l'environnement.",
+      "en": "Sorting waste helps respect the environment.",
+      "m": "SORT = Save Our eaRTh"
+    },
+    {
+      "q": "Victime violences quoi faire ?",
+      "opt": [
+        "Rien",
+        "Signaler autorités",
+        "Oublier",
+        "Patienter"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Une victime de violences doit signaler aux autorités.",
+      "en": "A violence victim must report to authorities.",
+      "m": "VICTIM = Vitally Important Criminals"
+    },
+    {
+      "q": "Face ordres police gendarmes ?",
+      "opt": [
+        "Refuser",
+        "Respecter et obéir",
+        "Discuter longtemps",
+        "Fuir"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Il faut respecter et obéir aux ordres de la police et gendarmerie.",
+      "en": "Must respect and obey police and gendarmerie orders.",
+      "m": "POLICE = Properly Obey"
+    },
+    {
+      "q": "Rôle de la police ?",
+      "opt": [
+        "Faire ordres gouvernement",
+        "Maintenir ordre public",
+        "Rien",
+        "Commander"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La police a pour rôle de maintenir l'ordre public.",
+      "en": "Police's role is to maintain public order.",
+      "m": "POLICE = Public Order"
+    },
+    {
+      "q": "Assistance personne danger ?",
+      "opt": [
+        "Ignorer",
+        "Appeler services emergency",
+        "Rire",
+        "Partir"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "L'assistance à personne en danger signifie appeler les services d'urgence.",
+      "en": "Assistance to person in danger means calling emergency services.",
+      "m": "HELP = Help Emergency"
+    },
+    {
+      "q": "Limitation liberté exemple ?",
+      "opt": [
+        "Jamais",
+        "Confinement sécurité publique",
+        "Autorisation riche",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Un exemple est le confinement pour la sécurité publique.",
+      "en": "An example is confinement for public safety.",
+      "m": "LIMIT = Liberty Imposed"
+    },
+    {
+      "q": "Témoin violences attitude ?",
+      "opt": [
+        "Passer",
+        "Signaler policiers",
+        "Rire",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Un témoin de violences doit signaler aux policiers.",
+      "en": "A witness to violence must report to police.",
+      "m": "WITNESS = Warn If"
+    },
+    {
+      "q": "Infraction grave ?",
+      "opt": [
+        "Petite amende",
+        "Crime",
+        "Contrainte",
+        "Petit vol"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Le crime est l'infraction la plus grave.",
+      "en": "Crime is the most serious offense.",
+      "m": "CRIME = Criminal Most"
+    },
+    {
+      "q": "Obligation tous résidant France ?",
+      "opt": [
+        "Voter seulement",
+        "Respecter lois",
+        "Payer impôts",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Tous résidant en France ont l'obligation de respecter les lois.",
+      "en": "All residents in France must respect laws.",
+      "m": "LAW = Legal Adherence"
+    },
+    {
+      "q": "Crime exemple ?",
+      "opt": [
+        "Petite arnaque",
+        "Meurtre",
+        "Petite dispute",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Le meurtre est un exemple de crime.",
+      "en": "Murder is an example of crime.",
+      "m": "CRIME = Criminal Most"
+    },
+    {
+      "q": "Délit exemple ?",
+      "opt": [
+        "Rien grave",
+        "Cambriolage",
+        "Rien",
+        "Silence"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Le cambriolage est un exemple de délit.",
+      "en": "Burglary is an example of misdemeanor.",
+      "m": "MISDEMEANOR = Most"
+    },
+    {
+      "q": "Maintien ordre public qui ?",
+      "opt": [
+        "Maire seulement",
+        "Police et gendarmerie",
+        "Citoyens seulement",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La police et gendarmerie veillent au maintien de l'ordre public.",
+      "en": "Police and gendarmerie ensure public order.",
+      "m": "ORDER = Official Required"
+    },
+    {
+      "q": "Déchets proposition ?",
+      "opt": [
+        "Jeter où on veut",
+        "Selon lieu et règles",
+        "Pas important",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "Les déchets doivent être triés selon les règles.",
+      "en": "Waste must be sorted according to rules.",
+      "m": "WASTE = Where Appropriate"
+    },
+    {
+      "q": "Louis XIV surnom ?",
+      "opt": [
+        "Brave",
+        "Roi Soleil",
+        "Noir",
+        "Petit"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Louis XIV avait le surnom de 'Roi Soleil'.",
+      "en": "Louis XIV was nicknamed 'Sun King'.",
+      "m": "LOUIS = Lumière"
+    },
+    {
+      "q": "Napoléon 1er empereur quand ?",
+      "opt": [
+        "1789",
+        "1799",
+        "1804",
+        "1815"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "Napoléon 1er est devenu empereur en 1804.",
+      "en": "Napoleon I became emperor in 1804.",
+      "m": "NAPOLEON = 1804"
+    },
+    {
+      "q": "Personnage lien République ?",
+      "opt": [
+        "Louis XIV",
+        "Robespierre",
+        "Napoléon",
+        "Tous"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "Robespierre a un lien direct avec la République.",
+      "en": "Robespierre is directly linked to the Republic.",
+      "m": "ROBESPIERRE = République"
+    },
+    {
+      "q": "Appel résistance de Gaulle quand ?",
+      "opt": [
+        "1939",
+        "1940",
+        "1941",
+        "1942"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "L'appel du 18 juin 1940.",
+      "en": "The appeal of June 18, 1940.",
+      "m": "JUNE = 18 1940"
+    },
+    {
+      "q": "Shoah étudiée à l'école pourquoi ?",
+      "opt": [
+        "Distraction",
+        "Mémoire atrocités",
+        "Rien",
+        "Divertissement"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La Shoah est étudiée pour se souvenir des atrocités.",
+      "en": "The Holocaust is studied to remember atrocities.",
+      "m": "HOLOCAUST = History"
+    },
+    {
+      "q": "Pays colonisé France ?",
+      "opt": [
+        "Aucun",
+        "Algérie",
+        "États-Unis",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La France a colonisé l'Algérie.",
+      "en": "France colonized Algeria.",
+      "m": "ALGERIA = Addressed"
+    },
+    {
+      "q": "Français élisent président quand ?",
+      "opt": [
+        "Avant 1848",
+        "Depuis 1848",
+        "Depuis 1870",
+        "Depuis 1962"
+      ],
+      "c": 3,
+      "cat": "Histoire géographie",
+      "fr": "Depuis 1962 au suffrage universel direct.",
+      "en": "Since 1962 by direct universal suffrage.",
+      "m": "1962 = Direct"
+    },
+    {
+      "q": "Construction européenne 1951 ?",
+      "opt": [
+        "Union Économique",
+        "CECA",
+        "Marché Commun",
+        "Euro"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La CECA (Communauté Européenne du Charbon et de l'Acier).",
+      "en": "The ECSC (European Coal and Steel Community).",
+      "m": "CECA = 1951"
+    },
+    {
+      "q": "Peine mort abolie sous président ?",
+      "opt": [
+        "De Gaulle",
+        "Pompidou",
+        "Giscard",
+        "Mitterrand"
+      ],
+      "c": 3,
+      "cat": "Histoire géographie",
+      "fr": "Sous le mandat de François Mitterrand en 1981.",
+      "en": "During François Mitterrand's presidency in 1981.",
+      "m": "MITTERRAND = 1981"
+    },
+    {
+      "q": "Régime 1792 Révolution ?",
+      "opt": [
+        "Monarchie",
+        "République",
+        "Empire",
+        "Dictature"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La République a été mise en place en 1792.",
+      "en": "The Republic was established in 1792.",
+      "m": "1792 = République"
+    },
+    {
+      "q": "Figure Résistance WWII ?",
+      "opt": [
+        "Vichy",
+        "Jean Moulin",
+        "Pétain",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Jean Moulin était une figure de la Résistance.",
+      "en": "Jean Moulin was a figure of the Resistance.",
+      "m": "MOULIN = Mystère"
+    },
+    {
+      "q": "1944 changé pour femmes ?",
+      "opt": [
+        "Rien",
+        "Droit de voter",
+        "Propriété",
+        "Travail"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Les femmes ont obtenu le droit de voter en 1944.",
+      "en": "Women gained the right to vote in 1944.",
+      "m": "1944 = Vote"
+    },
+    {
+      "q": "Organisation 1945 créée ?",
+      "opt": [
+        "OTAN",
+        "ONU",
+        "UE",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "L'ONU a été créée en 1945 après la WWII.",
+      "en": "The UN was created in 1945 after WWII.",
+      "m": "1945 = ONU"
+    },
+    {
+      "q": "Peine supprimée 1981 ?",
+      "opt": [
+        "Prison",
+        "Peine de mort",
+        "Amende",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La peine de mort a été supprimée en 1981.",
+      "en": "Capital punishment was abolished in 1981.",
+      "m": "1981 = Mort"
+    },
+    {
+      "q": "Euro monnaie utilisée quand ?",
+      "opt": [
+        "1999",
+        "2001",
+        "2002",
+        "2003"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "L'euro est utilisé en France depuis 2002.",
+      "en": "The euro has been used in France since 2002.",
+      "m": "2002 = Euro"
+    },
+    {
+      "q": "Première Guerre mondiale commencée ?",
+      "opt": [
+        "1912",
+        "1913",
+        "1914",
+        "1915"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "La Première Guerre mondiale a commencé en 1914.",
+      "en": "World War I started in 1914.",
+      "m": "1914 = WWI"
+    },
+    {
+      "q": "Débarquement 1944 lieu ?",
+      "opt": [
+        "Normandie",
+        "Provence",
+        "Belgique",
+        "Allemagne"
+      ],
+      "c": 0,
+      "cat": "Histoire géographie",
+      "fr": "Le débarquement a eu lieu en Normandie.",
+      "en": "The landing took place in Normandy.",
+      "m": "NORMANDIE = Débarquement"
+    },
+    {
+      "q": "Décolonisation France continent ?",
+      "opt": [
+        "Europe",
+        "Asie",
+        "Afrique",
+        "Amérique"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "L'Afrique a été le plus concernée par la décolonisation française.",
+      "en": "Africa was most affected by French decolonization.",
+      "m": "AFRICA = Decolonization"
+    },
+    {
+      "q": "8 mai fête quoi ?",
+      "opt": [
+        "Naissance",
+        "Victoire 1945",
+        "Mariage",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Le 8 mai fête la victoire de 1945.",
+      "en": "May 8 celebrates the 1945 victory.",
+      "m": "MAY = Military"
+    },
+    {
+      "q": "Mer océan borde France ?",
+      "opt": [
+        "Atlantique",
+        "Méditerranée",
+        "Manche",
+        "Tous"
+      ],
+      "c": 3,
+      "cat": "Histoire géographie",
+      "fr": "L'Atlantique, la Méditerranée et la Manche.",
+      "en": "Atlantic, Mediterranean and English Channel.",
+      "m": "ALL = Trois"
+    },
+    {
+      "q": "Pays frontière terrestre ?",
+      "opt": [
+        "Espagne",
+        "Allemagne",
+        "Italie",
+        "Tous"
+      ],
+      "c": 3,
+      "cat": "Histoire géographie",
+      "fr": "Espagne, Allemagne, Italie, Belgique, Suisse, Luxembourg.",
+      "en": "Spain, Germany, Italy, Belgium, Switzerland, Luxembourg.",
+      "m": "ALL = Many"
+    },
+    {
+      "q": "Ville port maritime France ?",
+      "opt": [
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Bordeaux"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Marseille est un port maritime important.",
+      "en": "Marseille is an important maritime port.",
+      "m": "MARSEILLE = Maritime"
+    },
+    {
+      "q": "Mer entre France Angleterre ?",
+      "opt": [
+        "Atlantique",
+        "Manche",
+        "Méditerranée",
+        "Baltique"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La Manche sépare la France et l'Angleterre.",
+      "en": "The English Channel separates France and England.",
+      "m": "MANCHE = Maritime"
+    },
+    {
+      "q": "France d'outre-mer ?",
+      "opt": [
+        "Rien",
+        "Territoires hors métropole",
+        "Colonies",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La France d'outre-mer sont les territoires hors de la métropole.",
+      "en": "Overseas France consists of territories outside metropolitan France.",
+      "m": "OVERSEAS = Outre-Mer"
+    },
+    {
+      "q": "Chaîne montagnes France-Espagne ?",
+      "opt": [
+        "Alpes",
+        "Pyrénées",
+        "Jura",
+        "Vosges"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Les Pyrénées sont situées entre la France et l'Espagne.",
+      "en": "The Pyrenees are located between France and Spain.",
+      "m": "PYRENEES = Pyrénées"
+    },
+    {
+      "q": "Île française océan Indien ?",
+      "opt": [
+        "Corse",
+        "Réunion",
+        "Corsica",
+        "Ajaccio"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La Réunion se trouve dans l'océan Indien.",
+      "en": "Reunion is located in the Indian Ocean.",
+      "m": "REUNION = Océan Indien"
+    },
+    {
+      "q": "Population France approximativement ?",
+      "opt": [
+        "50 millions",
+        "60 millions",
+        "70 millions",
+        "80 millions"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Environ 67-68 millions d'habitants en 2025.",
+      "en": "Approximately 67-68 million inhabitants in 2025.",
+      "m": "POPULATION = 67 millions"
+    },
+    {
+      "q": "Fleuve traverse Paris ?",
+      "opt": [
+        "Rhine",
+        "Loire",
+        "Seine",
+        "Rhône"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "La Seine traverse Paris.",
+      "en": "The Seine flows through Paris.",
+      "m": "SEINE = Seine"
+    },
+    {
+      "q": "Pays frontière terrestre France ?",
+      "opt": [
+        "Suisse",
+        "Allemagne",
+        "Italie",
+        "Tous"
+      ],
+      "c": 3,
+      "cat": "Histoire géographie",
+      "fr": "Suisse, Allemagne, Italie, Belgique, Espagne, Luxembourg.",
+      "en": "Switzerland, Germany, Italy, Belgium, Spain, Luxembourg.",
+      "m": "FRONTIERS = Many"
+    },
+    {
+      "q": "Pays frontière nord-est France ?",
+      "opt": [
+        "Suisse",
+        "Allemagne",
+        "Belgique",
+        "Italie"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "L'Allemagne au nord-est.",
+      "en": "Germany to the northeast.",
+      "m": "GERMANY = North-East"
+    },
+    {
+      "q": "Activités économiques où France ?",
+      "opt": [
+        "Partout égal",
+        "Plus grandes villes",
+        "Milieu",
+        "Campagne"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Les activités économiques se concentrent dans les grandes villes.",
+      "en": "Economic activities concentrate in major cities.",
+      "m": "CITIES = Commerce"
+    },
+    {
+      "q": "Pays attire plus visiteurs ?",
+      "opt": [
+        "France",
+        "États-Unis",
+        "Espagne",
+        "Italie"
+      ],
+      "c": 0,
+      "cat": "Histoire géographie",
+      "fr": "La France attire le plus de visiteurs au monde.",
+      "en": "France attracts the most visitors worldwide.",
+      "m": "FRANCE = Famed Resort"
+    },
+    {
+      "q": "Majorité Français habite ?",
+      "opt": [
+        "Campagne",
+        "Villes et agglomérations",
+        "Montagne",
+        "Littoral"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La majorité habite dans les villes.",
+      "en": "The majority lives in cities.",
+      "m": "CITIES = Central"
+    },
+    {
+      "q": "Région France plus peuplée ?",
+      "opt": [
+        "Auvergne-Rhône-Alpes",
+        "Île-de-France",
+        "Occitanie",
+        "Nouvelle-Aquitaine"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "L'Île-de-France est la plus peuplée.",
+      "en": "Île-de-France is the most populated.",
+      "m": "IDF = Île-de-France"
+    },
+    {
+      "q": "Ville française top 10 métropoles ?",
+      "opt": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Toulouse"
+      ],
+      "c": 0,
+      "cat": "Histoire géographie",
+      "fr": "Paris fait partie des 10 plus grandes métropoles.",
+      "en": "Paris is among the top 10 largest metropolitan areas.",
+      "m": "PARIS = Plus grandes"
+    },
+    {
+      "q": "Département France plus touristique ?",
+      "opt": [
+        "Paris",
+        "Alpes",
+        "Côte d'Azur",
+        "Provence"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "La Côte d'Azur est très touristique.",
+      "en": "The Côte d'Azur is very touristy.",
+      "m": "COTE = Côte d'Azur"
+    },
+    {
+      "q": "Visiter gratuit lieux culturels ?",
+      "opt": [
+        "Jamais",
+        "Premier dimanche mois",
+        "Tous les jours",
+        "Dimanche"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Le premier dimanche du mois certains musées sont gratuits.",
+      "en": "The first Sunday of the month some museums are free.",
+      "m": "FIRST = Free"
+    },
+    {
+      "q": "Personnes parlent français ?",
+      "opt": [
+        "100 millions",
+        "200 millions",
+        "300 millions",
+        "400 millions"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "Environ 300 millions de personnes parlent français.",
+      "en": "Approximately 300 million people speak French.",
+      "m": "FRENCH = 300 millions"
+    },
+    {
+      "q": "Marguerite Yourcenar était ?",
+      "opt": [
+        "Peintre",
+        "Écrivaine française célèbre",
+        "Musicienne",
+        "Historienne"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Marguerite Yourcenar était une écrivaine française célèbre.",
+      "en": "Marguerite Yourcenar was a famous French writer.",
+      "m": "YOURCENAR = Écrivaine"
+    },
+    {
+      "q": "Peintre français ?",
+      "opt": [
+        "Picasso",
+        "Monet",
+        "Dalí",
+        "Van Gogh"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Claude Monet était un peintre français.",
+      "en": "Claude Monet was a French painter.",
+      "m": "MONET = Peintre"
+    },
+    {
+      "q": "Musée situé Paris ?",
+      "opt": [
+        "Prado",
+        "Louvre",
+        "Uffizi",
+        "Hermitage"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Le Louvre est situé à Paris.",
+      "en": "The Louvre is located in Paris.",
+      "m": "LOUVRE = Paris"
+    },
+    {
+      "q": "Auguste Rodin était ?",
+      "opt": [
+        "Peintre",
+        "Sculpteur français",
+        "Musicien",
+        "Écrivain"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Auguste Rodin était un sculpteur français.",
+      "en": "Auguste Rodin was a French sculptor.",
+      "m": "RODIN = Sculpteur"
+    },
+    {
+      "q": "Classement langue française ?",
+      "opt": [
+        "1ère",
+        "2ème",
+        "3ème",
+        "5ème"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "Le français est la 3ème langue la plus parlée.",
+      "en": "French is the 3rd most spoken language.",
+      "m": "FRENCH = Third"
+    },
+    {
+      "q": "Cathédrale détruite incendie 2019 ?",
+      "opt": [
+        "Chartres",
+        "Notre-Dame",
+        "Reims",
+        "Amiens"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Notre-Dame de Paris a été partiellement détruite par un incendie en 2019.",
+      "en": "Notre-Dame de Paris was partially destroyed by fire in 2019.",
+      "m": "NOTRE-DAME = 2019"
+    },
+    {
+      "q": "Écrivaine française célèbre ?",
+      "opt": [
+        "George Sand",
+        "Simone de Beauvoir",
+        "Colette",
+        "Marguerite Duras"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "Simone de Beauvoir était une écrivaine française célèbre.",
+      "en": "Simone de Beauvoir was a famous French writer.",
+      "m": "BEAUVOIR = Écrivaine"
+    },
+    {
+      "q": "Musicien français célèbre ?",
+      "opt": [
+        "Mozart",
+        "Debussy",
+        "Beethoven",
+        "Brahms"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Claude Debussy était un musicien français célèbre.",
+      "en": "Claude Debussy was a famous French musician.",
+      "m": "DEBUSSY = Musicien"
+    },
+    {
+      "q": "Auguste Renoir était ?",
+      "opt": [
+        "Sculpteur",
+        "Peintre français",
+        "Musicien",
+        "Écrivain"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Auguste Renoir était un peintre français impressionniste.",
+      "en": "Auguste Renoir was a French Impressionist painter.",
+      "m": "RENOIR = Peintre"
+    },
+    {
+      "q": "Fête française ?",
+      "opt": [
+        "Noël",
+        "Bastille 14 juillet",
+        "Thanksgiving",
+        "Halloween"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La fête de la Bastille le 14 juillet est une fête française.",
+      "en": "Bastille Day July 14 is a French celebration.",
+      "m": "BASTILLE = July 14"
+    },
+    {
+      "q": "Mariage reconnu État ?",
+      "opt": [
+        "Seulement religieux",
+        "Civil reconnu",
+        "Aucun",
+        "Religieux seulement"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Seul le mariage civil est reconnu par l'État français.",
+      "en": "Only civil marriage is recognized by the French State.",
+      "m": "CIVIL = Certified"
+    },
+    {
+      "q": "Inscrire enfant école ?",
+      "opt": [
+        "Police",
+        "École",
+        "Mairie",
+        "Gouvernement"
+      ],
+      "c": 2,
+      "cat": "Vie en société",
+      "fr": "Les parents inscrivent leur enfant à la mairie.",
+      "en": "Parents register their child at the town hall.",
+      "m": "MAIRIE = Municipal"
+    },
+    {
+      "q": "Divorce autorité parentale ?",
+      "opt": [
+        "Père seulement",
+        "Mère seulement",
+        "Tous deux conjointement",
+        "Juges"
+      ],
+      "c": 2,
+      "cat": "Vie en société",
+      "fr": "Après divorce, l'autorité parentale est généralement partagée.",
+      "en": "After divorce, parental authority is generally shared.",
+      "m": "SHARED = Split"
+    },
+    {
+      "q": "Avocat gratuit difficultés financières ?",
+      "opt": [
+        "Jamais gratuit",
+        "Aide juridictionnelle",
+        "Rarement",
+        "Jamais"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "L'aide juridictionnelle permet d'avoir un avocat gratuitement.",
+      "en": "Legal aid provides free lawyer access.",
+      "m": "LEGAL = Liberty"
+    },
+    {
+      "q": "Déclarer naissance enfant ?",
+      "opt": [
+        "Police",
+        "Mairie obligatoire",
+        "Hôpital",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "La naissance doit être déclarée à la mairie.",
+      "en": "Birth must be registered at the town hall.",
+      "m": "MAIRIE = Municipal"
+    },
+    {
+      "q": "Permis de conduire condition ?",
+      "opt": [
+        "Age seulement",
+        "18 ans et examen",
+        "Richesse",
+        "Politique"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Il faut avoir 18 ans et réussir l'examen.",
+      "en": "Must be 18 years old and pass the test.",
+      "m": "18 = Years"
+    },
+    {
+      "q": "Bail locatif valide ?",
+      "opt": [
+        "Oral seulement",
+        "Écrit obligatoire",
+        "Pas important",
+        "E-mail"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Un bail locatif doit être écrit pour être valide.",
+      "en": "A lease must be in writing to be valid.",
+      "m": "WRITTEN = Warrant"
+    },
+    {
+      "q": "Lave-vaisselle cassé où ?",
+      "opt": [
+        "Poubelle",
+        "Déchetterie",
+        "Rue",
+        "Rivière"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Les appareils cassés vont à la déchetterie.",
+      "en": "Broken appliances go to the recycling center.",
+      "m": "RECYCLE = Register"
+    },
+    {
+      "q": "Numéro urgence police ?",
+      "opt": [
+        "15",
+        "17",
+        "18",
+        "112"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Le 17 est le numéro pour appeler la police.",
+      "en": "17 is the number to call police.",
+      "m": "17 = Police"
+    },
+    {
+      "q": "Accès soins proposition ?",
+      "opt": [
+        "Pas de droit",
+        "Droit garanti pour tous",
+        "Seulement riches",
+        "Gouvernement décide"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "L'accès aux soins est un droit garanti pour tous.",
+      "en": "Access to healthcare is a guaranteed right for all.",
+      "m": "HEALTHCARE = Healthy"
+    },
+    {
+      "q": "Contraception accessible ?",
+      "opt": [
+        "Non jamais",
+        "Oui pour tous",
+        "Seulement riches",
+        "Pas accessible"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "La contraception est accessible à tous.",
+      "en": "Contraception is accessible to all.",
+      "m": "CONTRACEPTION = Care"
+    },
+    {
+      "q": "Confidentialité domaine santé ?",
+      "opt": [
+        "Pas important",
+        "Secret médical obligatoire",
+        "Public",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Le secret médical est obligatoire en France.",
+      "en": "Medical confidentiality is mandatory in France.",
+      "m": "CONFIDENTIAL = Care"
+    },
+    {
+      "q": "Assurance maladie inscription ?",
+      "opt": [
+        "Optionnel",
+        "Obligatoire pour tous",
+        "Seulement salariés",
+        "Jamais"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "L'inscription à l'Assurance maladie est obligatoire.",
+      "en": "Health insurance registration is mandatory.",
+      "m": "HEALTH = Healthy"
+    },
+    {
+      "q": "Congé parental qui demander ?",
+      "opt": [
+        "Gouvernement",
+        "Parents reconnaître",
+        "Employer",
+        "Mairie"
+      ],
+      "c": 2,
+      "cat": "Vie en société",
+      "fr": "Les parents peuvent demander un congé parental à l'employeur.",
+      "en": "Parents can request parental leave from employer.",
+      "m": "PARENTAL = Parents"
+    },
+    {
+      "q": "Affaires conseil prud'hommes ?",
+      "opt": [
+        "Criminelles",
+        "Travail et conflits",
+        "Civiles",
+        "Propriété"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Le conseil de prud'hommes traite les affaires de travail.",
+      "en": "Labor court handles work-related matters.",
+      "m": "LABOR = Law"
+    },
+    {
+      "q": "Travail non déclaré ?",
+      "opt": [
+        "Permis",
+        "Illégal interdit",
+        "Recommandé",
+        "Normal"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Travailler sans être déclaré est illégal.",
+      "en": "Working undeclared is illegal.",
+      "m": "ILLEGAL = Interdit"
+    },
+    {
+      "q": "Employeur veut travailler plus ?",
+      "opt": [
+        "Gratuit toujours",
+        "Doit payer heures supplémentaires",
+        "Rien",
+        "Jamais"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Les heures supplémentaires doivent être payées.",
+      "en": "Overtime must be paid.",
+      "m": "OVERTIME = Over Tariff"
+    },
+    {
+      "q": "France Travail mission ?",
+      "opt": [
+        "Rien",
+        "Aider trouver emploi",
+        "Punir chômeurs",
+        "Gouverner"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "France Travail aide les personnes à trouver un emploi.",
+      "en": "France Travail helps people find employment.",
+      "m": "FRANCE = Facilitate"
+    },
+    {
+      "q": "Droit syndical entreprise ?",
+      "opt": [
+        "Interdit",
+        "Permet se regrouper",
+        "Obligatoire",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Le droit syndical permet de se regrouper dans une entreprise.",
+      "en": "Union rights allow organizing in a company.",
+      "m": "SYNDICAL = Support"
+    },
+    {
+      "q": "Droit grève entreprise ?",
+      "opt": [
+        "Interdit",
+        "Permet arrêter travail collectif",
+        "Obligatoire",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Le droit de grève autorise d'arrêter le travail collectivement.",
+      "en": "Right to strike allows stopping work collectively.",
+      "m": "STRIKE = Stop Temporarily"
+    },
+    {
+      "q": "Conditions chômage allocation ?",
+      "opt": [
+        "Jamais",
+        "Si cotisations suffisantes",
+        "Tous automatiquement",
+        "Jamais sauf riches"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Il faut avoir cotisé suffisamment pour toucher les allocations.",
+      "en": "Must have contributed enough to receive benefits.",
+      "m": "UNEMPLOYMENT = Unfinanced"
+    },
+    {
+      "q": "École maternelle qu'est-ce ?",
+      "opt": [
+        "Garderie payante",
+        "Éducation enfants 3-6 ans",
+        "Rien",
+        "Primaire"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "L'école maternelle accueille les enfants de 3 à 6 ans.",
+      "en": "Kindergarten welcomes children aged 3 to 6.",
+      "m": "MATERNELLE = Mother"
+    },
+    {
+      "q": "Diplôme fin collège ?",
+      "opt": [
+        "Bac",
+        "Brevet",
+        "CAP",
+        "BEP"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Le Brevet est passé à la fin du collège.",
+      "en": "The Diploma is taken at the end of middle school.",
+      "m": "BREVET = Brief"
+    },
+    {
+      "q": "Parents élève droit ?",
+      "opt": [
+        "Aucun",
+        "Participer association parents",
+        "Gouverner école",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Les parents peuvent participer aux associations de parents d'élèves.",
+      "en": "Parents can participate in parent associations.",
+      "m": "PARENTS = Participate"
+    },
+    {
+      "q": "Qui mange cantine scolaire ?",
+      "opt": [
+        "Tous obligatoire",
+        "Tous librement",
+        "Riches seulement",
+        "Jamais"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Tous les élèves peuvent manger à la cantine librement.",
+      "en": "All students can freely eat in the cafeteria.",
+      "m": "CANTINE = Carte"
+    },
+    {
+      "q": "Instruction obligatoire âge ?",
+      "opt": [
+        "5 ans",
+        "6 ans",
+        "7 ans",
+        "8 ans"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "L'instruction est obligatoire à partir de 3 ans (réforme 2019).",
+      "en": "Education is mandatory from age 3 (2019 reform).",
+      "m": "THREE = Trois"
+    },
+    {
+      "q": "Majorité âge France ?",
+      "opt": [
+        "16 ans",
+        "17 ans",
+        "18 ans",
+        "21 ans"
+      ],
+      "c": 2,
+      "cat": "Vie en société",
+      "fr": "L'âge de la majorité en France est 18 ans.",
+      "en": "The age of majority in France is 18 years.",
+      "m": "18 = Majority"
+    },
+    {
+      "q": "Interdit parents école ?",
+      "opt": [
+        "Rien",
+        "Interdire cours obligatoires",
+        "Permettre",
+        "Encourager"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Les parents ne peuvent pas interdire les cours obligatoires.",
+      "en": "Parents cannot forbid mandatory classes.",
+      "m": "MANDATORY = Must Attend"
+    },
+    {
+      "q": "Motif absence accepté école ?",
+      "opt": [
+        "Jamais",
+        "Maladie certificat médical",
+        "Tout motif",
+        "Rien"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "La maladie avec certificat médical est acceptée.",
+      "en": "Illness with doctor's certificate is accepted.",
+      "m": "MEDICAL = Must"
+    },
+    {
+      "q": "Parents pas instruction enfants ?",
+      "opt": [
+        "Rien",
+        "Amende prison",
+        "Récompense",
+        "Jamais"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Les parents qui ne respectent pas l'obligation risquent amende et prison.",
+      "en": "Parents failing to ensure education face fines and jail.",
+      "m": "PENALTY = Prison"
+    },
+    {
+      "q": "Vacances Noël scolaires ?",
+      "oct": "December",
+      "en": "December",
+      "m": "NOEL = Noël"
+    },
+    {
+      "q": "Enfant situation handicap école ?",
+      "opt": [
+        "Pas bienvenu",
+        "Accès et aide",
+        "Rejeté",
+        "Ignoré"
+      ],
+      "c": 1,
+      "cat": "Vie en société",
+      "fr": "Un enfant en situation de handicap a accès à l'école avec aide.",
+      "en": "A child with disability has school access with support.",
+      "m": "HANDICAP = Help"
+    },
+    {
+      "q": "Sénat composition ?",
+      "opt": [
+        "348 sénateurs",
+        "327 sénateurs",
+        "379 sénateurs",
+        "300 sénateurs"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Le Sénat compte 348 sénateurs élus pour 6 ans.",
+      "en": "The Senate has 348 senators elected for 6 years.",
+      "m": "SENATE = 348"
+    },
+    {
+      "q": "Président mandat durée ?",
+      "opt": [
+        "4 ans",
+        "5 ans",
+        "7 ans",
+        "6 ans"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Le mandat présidentiel dure 5 ans, renouvelable une fois.",
+      "en": "Presidential term is 5 years, renewable once.",
+      "m": "PRESIDENT = 5 years"
+    },
+    {
+      "q": "Suffrage universel depuis quand ?",
+      "opt": [
+        "1789",
+        "1848",
+        "1945",
+        "1962"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "Le suffrage universel direct pour présidentielle depuis 1962.",
+      "en": "Direct universal suffrage for presidency since 1962.",
+      "m": "1962 = Suffrage"
+    },
+    {
+      "q": "Capitale France ?",
+      "opt": [
+        "Lyon",
+        "Marseille",
+        "Paris",
+        "Toulouse"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "Paris est la capitale et plus grande ville de France.",
+      "en": "Paris is the capital and largest city of France.",
+      "m": "PARIS = Capital"
+    },
+    {
+      "q": "Drapeau France couleurs ?",
+      "opt": [
+        "Bleu-Blanc-Vert",
+        "Bleu-Blanc-Rouge",
+        "Rouge-Blanc-Bleu",
+        "Blanc-Bleu-Rouge"
+      ],
+      "c": 1,
+      "cat": "Principes et valeurs",
+      "fr": "Le drapeau français est bleu-blanc-rouge depuis 1794.",
+      "en": "French flag is blue-white-red since 1794.",
+      "m": "FLAG = Blue-White-Red"
+    },
+    {
+      "q": "Continent France situé ?",
+      "opt": [
+        "Asie",
+        "Afrique",
+        "Amérique",
+        "Europe"
+      ],
+      "c": 3,
+      "cat": "Histoire géographie",
+      "fr": "La France est située en Europe occidentale.",
+      "en": "France is located in Western Europe.",
+      "m": "EUROPE = Continent"
+    },
+    {
+      "q": "Capitale région Île-de-France ?",
+      "opt": [
+        "Lyon",
+        "Paris",
+        "Amiens",
+        "Troyes"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "Paris est la capitale de l'Île-de-France.",
+      "en": "Paris is the capital of Île-de-France.",
+      "m": "PARIS = IDF"
+    },
+    {
+      "q": "Monnaie France avant Euro ?",
+      "opt": [
+        "Franc",
+        "Livre",
+        "Peseta",
+        "Guilder"
+      ],
+      "c": 0,
+      "cat": "Histoire géographie",
+      "fr": "Le franc français était la monnaie avant l'euro.",
+      "en": "The French franc was the currency before the euro.",
+      "m": "FRANC = Former"
+    },
+    {
+      "q": "Frontière ouest France ?",
+      "opt": [
+        "Océan Atlantique",
+        "Mer Méditerranée",
+        "Manche",
+        "Rhin"
+      ],
+      "c": 0,
+      "cat": "Histoire géographie",
+      "fr": "L'océan Atlantique borde la France à l'ouest.",
+      "en": "The Atlantic Ocean borders France to the west.",
+      "m": "ATLANTIC = West"
+    },
+    {
+      "q": "Plus long fleuve France ?",
+      "opt": [
+        "Loire",
+        "Rhône",
+        "Garonne",
+        "Seine"
+      ],
+      "c": 0,
+      "cat": "Histoire géographie",
+      "fr": "La Loire est le plus long fleuve de France (625 km).",
+      "en": "Loire is the longest river in France (625 km).",
+      "m": "LOIRE = Longest"
+    },
+    {
+      "q": "Montagne plus haute France ?",
+      "opt": [
+        "Mont-Blanc",
+        "Pic du Midi",
+        "Pic d'Anie",
+        "Mont-Dore"
+      ],
+      "c": 0,
+      "cat": "Histoire géographie",
+      "fr": "Le Mont-Blanc (4808m) est le plus haut sommet français.",
+      "en": "Mont-Blanc (4808m) is France's highest peak.",
+      "m": "BLANC = 4808m"
+    },
+    {
+      "q": "Superficie France approximativement ?",
+      "opt": [
+        "450000 km²",
+        "550000 km²",
+        "650000 km²",
+        "750000 km²"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La France couvre environ 643000 km².",
+      "en": "France covers approximately 643,000 km².",
+      "m": "FRANCE = 643km2"
+    },
+    {
+      "q": "Président Conseil UE durée ?",
+      "opt": [
+        "3 mois",
+        "6 mois",
+        "1 an",
+        "2 ans"
+      ],
+      "c": 1,
+      "cat": "Système institutionnel",
+      "fr": "La présidence du Conseil de l'UE change tous les 6 mois.",
+      "en": "EU Council presidency rotates every 6 months.",
+      "m": "ROTATION = 6mo"
+    },
+    {
+      "q": "Langues Belgique ?",
+      "opt": [
+        "Français seulement",
+        "Français et Flamand",
+        "Tous",
+        "Allemand"
+      ],
+      "c": 1,
+      "cat": "Histoire géographie",
+      "fr": "La Belgique a le français et le néerlandais comme langues officielles.",
+      "en": "Belgium has French and Dutch as official languages.",
+      "m": "BELGIAN = Bilingual"
+    },
+    {
+      "q": "Capitale Suisse ?",
+      "opt": [
+        "Zurich",
+        "Genève",
+        "Berne",
+        "Lausanne"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "Berne est la capitale administrative de la Suisse.",
+      "en": "Bern is the administrative capital of Switzerland.",
+      "m": "BERNE = Capital"
+    },
+    {
+      "q": "Cantons Suisse nombre ?",
+      "opt": [
+        "23",
+        "25",
+        "26",
+        "28"
+      ],
+      "c": 2,
+      "cat": "Histoire géographie",
+      "fr": "La Suisse compte 26 cantons depuis 1995.",
+      "en": "Switzerland has 26 cantons since 1995.",
+      "m": "CANTONS = 26"
+    },
+    {
+      "q": "Ministre France nomme qui ?",
+      "opt": [
+        "Parlement",
+        "Peuple",
+        "Président",
+        "Maire"
+      ],
+      "c": 2,
+      "cat": "Système institutionnel",
+      "fr": "Le Président nomme les ministres sur proposition du Premier ministre.",
+      "en": "President appoints ministers on PM's proposal.",
+      "m": "MINISTER = President"
+    },
+    {
+      "q": "Timbre postal France créé ?",
+      "opt": [
+        "1849",
+        "1850",
+        "1851",
+        "1852"
+      ],
+      "c": 0,
+      "cat": "Histoire géographie",
+      "fr": "Le premier timbre postal français est de 1849.",
+      "en": "First French postage stamp was in 1849.",
+      "m": "STAMP = 1849"
+    },
+    {
+      "q": "Déclaration Droits Homme Citoyen année ?",
+      "opt": [
+        "1788",
+        "1789",
+        "1790",
+        "1791"
+      ],
+      "c": 1,
+      "cat": "Droits et devoirs",
+      "fr": "La Déclaration des Droits de l'Homme et du Citoyen a été adoptée le 26 août 1789.",
+      "en": "Declaration of Human and Citizen Rights adopted August 26, 1789.",
+      "m": "DDDHC = 1789"
+    }
+  ]
+}
