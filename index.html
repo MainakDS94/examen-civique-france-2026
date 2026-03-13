@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formation Civique - Questions</title>
+    <title>Formation Civique - 206 Questions</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -586,6 +586,24 @@
         }
 
         function backToMenu() {
+            // Reset all counters and state
+            correct = 0;
+            wrong = 0;
+            skip = 0;
+            currentIndex = 0;
+            selectedAnswer = null;
+            answered = false;
+            wrongAnswers = [];
+            usedIndices = new Set();
+            
+            // Reset display
+            document.getElementById('correctCount').textContent = '0';
+            document.getElementById('wrongCount').textContent = '0';
+            document.getElementById('skipCount').textContent = '0';
+            document.getElementById('currentNum').textContent = '0';
+            document.getElementById('progressFill').style.width = '0%';
+            
+            // Hide screens
             document.getElementById('modeScreen').classList.remove('hidden');
             document.getElementById('quizScreen').classList.remove('active');
             document.getElementById('resultsScreen').classList.remove('active');
